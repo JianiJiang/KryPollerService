@@ -3,14 +3,14 @@
 As a part of scaling the number of services running within a modern health tech company we need a way to make sure our systems are running smoothly. None of the monitoring tools that we have looked at satisfy our requirements so we have decided that we will build one ourselves. What we want you to do is to build a simple service poller that keeps a list of services (defined by a URL), and periodically performs a HTTP GET request to each and stores a record of the response ("OK" or "FAIL"). Apart from the polling logic we want to have all the services visualised and easily managed in a basic UI presenting all the services together with their status.
 
 ## Requirements
-MySQL DB (8.0.27 used in this project)
-Java 11 (Might run on other versions)
-Support for Maven
+- MySQL DB (8.0.27 used in this project)
+- Java 11 (Might run on other versions)
+- IDE with Support for Maven
 
 ## How to run
 
 - Clone or download the project
-- Run SQL DB server locally
+- Run MySQL DB server locally
 - Change to your dbName, userName, and userPassword in DBConnection.java
 - Build it from IDE.
 
