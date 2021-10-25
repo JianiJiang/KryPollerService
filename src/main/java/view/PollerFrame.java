@@ -70,7 +70,7 @@ public class PollerFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lbTitle.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        lbTitle.setText("Kry Poller controller.Service App");
+        lbTitle.setText("Kry Poller Service App");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
